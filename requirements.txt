@@ -1,0 +1,7 @@
+langchain
+langchain-groq
+langchain-mcp-adapters
+fastmcp
+python-dotenv
+streamlit
+groq
