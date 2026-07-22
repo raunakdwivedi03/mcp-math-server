@@ -7,4 +7,13 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# Environment variables (secrets)
+.env
+.env.*
+
+# Databases & local exports
+data/
+*.db
+notes_export.pdf

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: personal-assistant-mcp
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python launcher.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: OPENWEATHERMAP_API_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: EMAIL_ADDRESS
+        sync: false
+      - key: EMAIL_PASSWORD
+        sync: false
+      - key: IMAP_SERVER
+        value: imap.gmail.com
